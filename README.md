@@ -1,5 +1,10 @@
 # Bernard Module for Zend Framework 2
 
+[![Build Status](https://travis-ci.org/detailnet/bernard-module.svg?branch=master)](https://travis-ci.org/detailnet/bernard-module)
+[![Coverage Status](https://img.shields.io/coveralls/detailnet/bernard-module.svg)](https://coveralls.io/r/detailnet/bernard-module)
+[![Latest Stable Version](https://poser.pugx.org/detailnet/bernard-module/v/stable.svg)](https://packagist.org/packages/detailnet/bernard-module)
+[![Latest Unstable Version](https://poser.pugx.org/detailnet/bernard-module/v/unstable.svg)](https://packagist.org/packages/detailnet/bernard-module)
+
 ## Introduction
 This module integrates [Bernard](https://github.com/bernardphp/bernard) with [Zend Framework 2](https://github.com/zendframework/zf2).
 

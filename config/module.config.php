@@ -16,7 +16,7 @@ return array(
         'factories' => array(
             'Detail\Bernard\Driver\DriverManager'   => 'Detail\Bernard\Factory\Driver\DriverManagerFactory',
             'Detail\Bernard\Driver\IronMqDriver'    => 'Detail\Bernard\Factory\Driver\IronMqDriverFactory',
-            'Detail\Bernard\Options\ModuleOptions'  => 'Detail\Bernard\Factory\ModuleOptionsFactory',
+            'Detail\Bernard\Options\ModuleOptions'  => 'Detail\Bernard\Factory\Options\ModuleOptionsFactory',
             'Detail\Bernard\Router\NameBasedRouter' => 'Detail\Bernard\Factory\Router\NameBasedRouterFactory',
             'Bernard\Driver\FlatFileDriver'         => 'Detail\Bernard\Factory\Driver\FlatFileDriverFactory',
             'Bernard\Queue\InMemoryQueue'           => 'Detail\Bernard\Factory\Queue\InMemoryQueueFactory',

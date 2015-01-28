@@ -90,7 +90,7 @@ class ConsumerController extends AbstractActionController implements LoggerAware
 
         // Make sure that we are running in a console and the user has not tricked our
         // application into running this action from a public web server.
-        if (!$request instanceof ConsoleRequest){
+        if (!$request instanceof ConsoleRequest) {
             throw new RuntimeException('You can only use this action from a console');
         }
 
@@ -104,12 +104,14 @@ class ConsumerController extends AbstractActionController implements LoggerAware
         $isVerbose = $request->getParam('verbose', false) || $request->getParam('v', false);
 
         $this->log(
-            sprintf('Started consuming messages in queue "%s"', $queueName), LogLevel::INFO
+            sprintf('Started consuming messages in queue "%s"', $queueName),
+            LogLevel::INFO
         );
 
         if ($isVerbose) {
             $console->writeLine(
-                sprintf('Consuming messages in queue "%s"', $queueName), ConsoleColor::LIGHT_BLUE
+                sprintf('Consuming messages in queue "%s"', $queueName),
+                ConsoleColor::LIGHT_BLUE
             );
         }
 
@@ -126,7 +128,8 @@ class ConsumerController extends AbstractActionController implements LoggerAware
         $consumer->consume($this->getQueues()->create($queueName), $consumerOptions);
 
         $this->log(
-            sprintf('Ended consuming messages in queue "%s"', $queueName), LogLevel::NOTICE
+            sprintf('Ended consuming messages in queue "%s"', $queueName),
+            LogLevel::NOTICE
         );
     }
 

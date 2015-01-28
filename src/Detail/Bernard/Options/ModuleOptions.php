@@ -21,7 +21,7 @@ class ModuleOptions extends AbstractOptions
     protected $messengers = array();
 
     /**
-     * @param null $directory
+     * @param string $directory
      */
     public function setDirectory($directory)
     {
@@ -29,7 +29,7 @@ class ModuleOptions extends AbstractOptions
     }
 
     /**
-     * @return null
+     * @return string
      */
     public function getDirectory()
     {
