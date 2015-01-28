@@ -1,4 +1,4 @@
-# Bernard Module for Zend Framework 2
+# Zend Framework 2 Module for Bernard
 
 [![Build Status](https://travis-ci.org/detailnet/bernard-module.svg?branch=master)](https://travis-ci.org/detailnet/bernard-module)
 [![Coverage Status](https://img.shields.io/coveralls/detailnet/bernard-module.svg)](https://coveralls.io/r/detailnet/bernard-module)
@@ -21,7 +21,7 @@ Install the module through [Composer](http://getcomposer.org/) using the followi
      ```json
      {
          "require": {
-             "detailnet/bernard-module": "0.1.*"
+             "detailnet/bernard-module": "1.x-dev"
          }
      }
      ```
